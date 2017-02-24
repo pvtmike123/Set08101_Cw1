@@ -1,0 +1,60 @@
+table {
+}
+
+.my-table {
+    width: 70%;
+}
+
+.left-sofa.available {
+    background: url(../img/dom_sofa_l_free.png);
+    background-size: cover !important;
+    padding: 23px;
+}
+
+.left-sofa.myseat {
+    background: url(../img/dom_sofa_l_mine.png);
+    background-size: cover !important;
+    padding: 23px;
+}
+
+.left-sofa.taken {
+    background: url(../img/dom_sofa_l_taken.png);
+    background-size: cover !important;
+    padding: 23px;
+    cursor: not-allowed;
+}
+
+.right-sofa.available {
+    background: url(../img/dom_sofa_r_free.png);
+    background-size: cover !important;
+    padding: 23px;
+}
+
+.right-sofa.myseat {
+    background: url(../img/dom_sofa_r_mine.png);
+    background-size: cover !important;
+    padding: 23px;
+}
+
+.right-sofa.taken {
+    background: url(../img/dom_sofa_r_taken.png);
+    background-size: cover !important;
+    padding: 23px;
+    cursor: not-allowed;
+}
+
+.armchair.available {
+    background: url(../img/dom_armchair_free.png);
+    background-size: cover !important;
+}
+
+.armchair.myseat {
+    background: url(../img/dom_armchair_mine.png);
+    background-size: cover !important;
+}
+
+.armchair.taken {
+    background: url(../img/dom_armchair_taken.png);
+    background-size: cover !important;
+    cursor: not-allowed;
+}

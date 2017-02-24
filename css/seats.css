@@ -1,0 +1,20 @@
+body {
+    font-family: arial;
+    background-image: url('../img/bg-img.jpeg');
+    background-size: cover;
+}
+
+td.free {
+    background: url(free.png);
+    background-size: cover;
+}
+
+td.mine {
+    background: url(taken.png);
+    background-size: cover;
+}
+
+td.booked {
+    background: url(booked.png);
+    background-size: cover;
+}
