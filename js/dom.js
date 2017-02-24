@@ -266,11 +266,11 @@ $(function () {
                 }
                 $('#bookingSummary ul').remove();
                 $('#bookingSummary').append(ul);
-                if (($('#seatsAlloc').text() <= 6) || $('#seatsAlloc').text() == 0) { // Doesnt let user continue if less than 0 seats and more than 6 seats have been booked
-                    $('button').prop('disabled', false);
+                if (($('#seatsAlloc').text() == 0) || $('#seatsAlloc').text() > 6) { // Doesnt let user continue if less than 0 seats and more than 6 seats have been booked
+                    $('button').prop('disabled', true);
                 }
                 else {
-                    $('button').prop('disabled', true); //
+                    $('button').prop('disabled', false); //
                 };
             });
         }
